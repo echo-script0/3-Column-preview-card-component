@@ -17,8 +17,8 @@ Users should be able to:
 ### Screenshot
 ![Preview](image.png)
 
-### Links
-
+### Live Site Url
+ https://echo-script0.github.io/3-Column-preview-card-component/
 
 ### Built with
 - Semantic HTML5 markup
