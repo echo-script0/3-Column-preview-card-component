@@ -1,0 +1,141 @@
+body {background-color: hsla(0, 0%, 100%, 0.75);
+      display: flex;
+      justify-content: center; /* Center horizontally */
+      align-items: center; /* Center vertically */
+      height: 100vh; /* Full viewport height */
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+      overflow: hidden;}
+
+.container {background-color: hsl(244, 38%, 16%);
+            width: 950px;
+            border-radius: 10px;
+            height: 500px;
+            padding: 0;
+            overflow: hidden;
+            display: flex;
+            flex-direction: row;}
+
+.container > div { flex: 1;}
+
+.container .first-container {background-color:hsl(31, 77%, 52%) ;
+                             display: flex;
+                             flex-direction: column;
+                             padding-left: 60px;}
+
+.first-container .sedan-icon {width: 70px;
+                              height: 50px;
+                              margin-top: 60px;}
+
+.first-container .sedans {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 35px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+.first-container .choose {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 14px;
+                          line-height: 23px;}
+
+.first-container .learn-more-one  {display: inline-block;
+                                   background-color: white;
+                                   color: hsl(31, 77%, 52%); /* default for sedan */
+                                   padding: 12px 32px;
+                                   border-radius: 25px;
+                                   font-family: 'Lexend Deca', sans-serif;
+                                   font-weight: 500;
+                                   text-decoration: none;
+                                   font-size: 14px;
+                                   transition: all 0.3s ease;
+                                   margin-top: 70px;
+                                   width: 80px;
+                                   height: 20px;}
+
+.first-container .learn-more-one:hover {background-color: transparent;
+                                        color: white;
+                                        border: 2px solid white;}
+
+.container .second-container {background-color:hsl(184, 100%, 22%) ;
+                             display: flex;
+                             flex-direction: column;
+                             padding-left: 60px;}
+
+.second-container .suv-icon {width: 70px;
+                              height: 50px;
+                              margin-top: 60px;}
+
+.second-container .suv {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 35px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+.second-container .take {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 14px;
+                          line-height: 23px;}
+
+.second-container .learn-more-two {display: inline-block;
+                                   background-color: white;
+                                   color: hsl(31, 77%, 52%); /* default for sedan */
+                                   padding: 12px 32px;
+                                   border-radius: 25px;
+                                   font-family: 'Lexend Deca', sans-serif;
+                                   font-weight: 500;
+                                   text-decoration: none;
+                                   font-size: 14px;
+                                   transition: all 0.3s ease;
+                                   margin-top: 70px;
+                                   width: 80px;
+                                   height: 20px;}
+
+.second-container .learn-more-two:hover {background-color: transparent;
+                                        color: white;
+                                        border: 2px solid white;}
+
+.container .third-container {background-color:hsl(179, 100%, 13%);
+                             display: flex;
+                             flex-direction: column;
+                             padding-left: 60px;}
+
+.third-container .luxury-icon {width: 70px;
+                              height: 50px;
+                              margin-top: 60px;}
+
+.third-container .luxury {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 35px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+.third-container .cruise {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 14px;
+                          line-height: 23px;}
+
+.third-container .learn-more-three {display: inline-block;
+                                   background-color: white;
+                                   color: hsl(31, 77%, 52%); /* default for sedan */
+                                   padding: 12px 32px;
+                                   border-radius: 25px;
+                                   font-family: 'Lexend Deca', sans-serif;
+                                   font-weight: 500;
+                                   text-decoration: none;
+                                   font-size: 14px;
+                                   transition: all 0.3s ease;
+                                   margin-top: 70px;
+                                   width: 80px;
+                                   height: 20px;}
+
+.third-container .learn-more-three:hover {background-color: transparent;
+                                        color: white;
+                                        border: 2px solid white;}
+
+
+                        
+
+
