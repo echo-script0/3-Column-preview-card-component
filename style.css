@@ -136,6 +136,101 @@ body {background-color: hsla(0, 0%, 100%, 0.75);
                                         border: 2px solid white;}
 
 
+
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    padding: 20px;
+    overflow: auto;
+  }
+
+  .container {
+    flex-direction: column;
+    width: 85vw;
+    height: auto;
+    border-radius: 10px;
+    margin: 40px, 0 40px 0;
+  }
+
+  .container > div {
+    padding: 40px;
+  }
+
+  .first-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .first-container .sedans {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 50px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+  .first-container .choose {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 22px;
+                          line-height: 1.6;}
+
+.first-container .learn-more-one  {display: inline-block;
+                                   background-color: white;
+                                   color: hsl(31, 77%, 52%); /* default for sedan */
+                                   padding: 12px 32px;
+                                   border-radius: 25px;
+                                   font-family: 'Lexend Deca', sans-serif;
+                                   font-weight: 500;
+                                   text-decoration: none;
+                                   font-size: 14px;
+                                   transition: all 0.3s ease;
+                                   margin-top: 70px;
+                                   width: 80px;
+                                   height: 20px;}
+
+
+.second-container .suv {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 50px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+.second-container .take {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 22px;
+                          line-height: 1.6;}
+
+  .third-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .third-container .luxury {color:hsl(0, 0%, 95%) ;
+                          font-family: 'Big Shoulders Display', cursive;
+                          font-size: 50px;
+                          font-weight: 700;
+                          margin-top: 35px;}
+
+.third-container .cruise {color: hsla(0, 0%, 100%, 0.75);
+                          font-family: 'Lexend Deca', sans-serif;
+                          font-weight: 200;
+                          font-size: 22px;
+                          line-height: 1.6;}
+
+
+  .learn-more-one,
+  .learn-more-two,
+  .learn-more-three {
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+    padding: 12px 0;
+    text-align: center;
+  }
+}
+
+
+
                         
 
 
